@@ -1,0 +1,76 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.gradient {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+}
+
+.food-bg {
+  background: #fff3cd;
+}
+
+.mem-bg {
+  background: #e0f7fa;
+}
+
+.final-bg {
+  background: #fce4ec;
+}
+
+.main-title {
+  font-size: 3rem;
+  animation: pop 1s ease;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+}
+
+.btn-container button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 20px;
+  border: none;
+  background: #ff6b81;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background: #ff4757;
+}
+
+.card {
+  background: white;
+  margin: 15px auto;
+  padding: 15px;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.floating {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  font-size: 2rem;
+  animation: float 3s infinite alternate;
+}
+
+@keyframes float {
+  from { transform: translateY(0px); }
+  to { transform: translateY(-20px); }
+}
+
+@keyframes pop {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
