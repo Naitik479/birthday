@@ -19,3 +19,9 @@ function funnyMusic() {
 function stopMusic() {
   document.getElementById("music").pause();
 }
+
+function cutCake() {
+  let cake = document.querySelector(".cake-area");
+  cake.classList.add("cut");
+  alert("Pandey ne cake ka aadha gira diya 😭🍰");
+}
